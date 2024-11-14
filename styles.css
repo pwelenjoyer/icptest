@@ -1,0 +1,28 @@
+/* Background color */
+body {
+    background-color: #F5F5DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Centered container */
+.container {
+    text-align: center;
+}
+
+/* Styling the text */
+h1 {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+/* Resize image to be 50% of its original size */
+img {
+    width: 50%; /* Makes the image half as wide */
+    height: auto; /* Maintains aspect ratio */
+    max-width: 100%;
+}
